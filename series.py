@@ -23,3 +23,14 @@ def fibonacci(n):
         l.append(b)
     return l
     
+#funciones integradas
+edadclientes= [45, 35, 25, 18, 36, 45, 28, 38]
+
+longitud= len(edadclientes)
+print("existen: ",longitud, "numero de edades ingresadas por ANDRES CARRASCO")
+
+elmasmayor=max(edadclientes)
+print("el cliente de mas edad tiene: ",elmasmayor, "años de edad")
+
+elmenor=min(edadclientes)
+print("el cliente de menor edad tiene: ",elmenor, "años de edad")    
